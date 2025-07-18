@@ -14,6 +14,6 @@ public class Motorcycle extends Vehicle {
     }
 
     public void revEngine(){
-        System.out.println("Revenging Engine");
+        System.out.println("Revving Engine");
     }
 }

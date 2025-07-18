@@ -1,7 +1,7 @@
 package org.example;
 
 public class Car extends Vehicle {
-    public int numberOfDoors;
+    private final int numberOfDoors; // Make private as controlled access and final because doors on vehicle won't change after declared
 
     public Car(String brand, int year, int price, int numberOfDoors) {
         super(brand, year, price);
@@ -14,5 +14,9 @@ public class Car extends Vehicle {
 
     public void honk(){
         System.out.println("HONK HONK");
+    }
+
+    public int getNumberOfDoors() {
+        return numberOfDoors;
     }
 }

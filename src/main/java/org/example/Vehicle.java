@@ -32,4 +32,14 @@ public abstract class Vehicle {
     }
 
     abstract double calculateInsurance();
+
+    public String getBrand() {
+        return brand;
+    }
+    public int getYear() {
+        return year;
+    }
+    public int getPrice() {
+        return price;
+    }
 }
