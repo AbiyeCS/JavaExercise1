@@ -31,7 +31,7 @@ public abstract class Vehicle {
         System.out.println("Vehicle Stopping");
     }
 
-    abstract double calculateInsurance();
+    public abstract double calculateInsurance();
 
     public String getBrand() {
         return brand;
